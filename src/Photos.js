@@ -15,6 +15,7 @@ export default function Photos(props) {
                     src={photo.src.landscape}
                     key={index}
                     className="img-fluid"
+                    alt="example of the word definition"
                   />
                 </a>
               </div>
