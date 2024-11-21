@@ -1,6 +1,6 @@
 body {
   background-color: #f9f7fe;
-  color: #333;
+  color: #975d59;
 }
 
 a {
@@ -16,7 +16,7 @@ a {
   color: #a76762;
 }
 .App .logo {
-  max-width: 350px;
+  max-width: 450px;
   display: block;
   margin: 0 auto;
 }
@@ -25,4 +25,15 @@ a {
   text-align: center;
   font-size: 14px;
   margin: 30px 0;
+}
+
+@media screen and (max-width: 500px) {
+  .App .logo {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .App .logo {
+    max-width: 250px;
+  }
 }
