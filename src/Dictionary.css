@@ -16,11 +16,11 @@
   padding: 6px 10px;
   border: 1px solid #ddd;
   border-radius: 6px;
-  color: #da837d;
+  color: #333;
 }
 
 .Dictionary .hint {
   font-size: 11px;
   margin-top: 5px;
-  color: #a76762;
+  color: #333;
 }
